@@ -20,7 +20,6 @@ tervehdysAlkuun()
 
 def runokone():
     def tokenize_poems(poems):
-        
         poems = ''.join([char if char.isalnum() or char.isspace() else ' ' for char in poems])
         return poems.split()
     
